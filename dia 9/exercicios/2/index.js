@@ -10,12 +10,12 @@ while (confirmar != "s") {
 
 
 //Previsao do salario
-let aumento = 0.015
+let aumentoSalario = 0.015
 console.log("Previsao salarial dos próximos 10 anos");
 
 for(let ano = 1; ano <= 10; ano++){
-    salario += salario * aumento
-    aumento *= 2
+    salario += salario * aumentoSalario
+    aumentoSalario *= 2
 
     console.log((2023 + ano) + " = R$ " + salario)
 }
